@@ -14,5 +14,5 @@ Parent Directory
 |---|---2.tif...  
 |---CLONE REPO HERE---|  
   
-**NOTE : **  
+**NOTE :**  
 Keep WSI image names and mask name exactly same and follow the exact same directory structure with the exact same folder names.
