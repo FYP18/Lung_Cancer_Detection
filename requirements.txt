@@ -1,0 +1,14 @@
+tensorflow
+numpy
+segmentation_models
+Patchify
+tifffile
+imagecodecs
+opencv-python
+os
+shutil
+glob
+random
+matplotlib
+pickle
+
