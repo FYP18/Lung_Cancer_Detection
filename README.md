@@ -21,7 +21,7 @@ Keep WSI image names and mask name exactly same and follow the exact same direct
       
 ## Prediction Results  
 ![alt text](https://github.com/FYP18/Lung_Cancer_Detection/blob/main/results/Pred_1.png)  
-![alt text](https://github.com/FYP18/Lung_Cancer_Detection/blob/main/results/pred_2.png)  
-![alt text](https://github.com/FYP18/Lung_Cancer_Detection/blob/main/results/pred_3.png)  
-![alt text](https://github.com/FYP18/Lung_Cancer_Detection/blob/main/results/pred_4.png)  
-![alt text](https://github.com/FYP18/Lung_Cancer_Detection/blob/main/results/pred_5.png)  
+![alt text](https://github.com/FYP18/Lung_Cancer_Detection/blob/main/results/pred_2.PNG)  
+![alt text](https://github.com/FYP18/Lung_Cancer_Detection/blob/main/results/pred_3.PNG)  
+![alt text](https://github.com/FYP18/Lung_Cancer_Detection/blob/main/results/pred_4.PNG)  
+![alt text](https://github.com/FYP18/Lung_Cancer_Detection/blob/main/results/pred_5.PNG)  
