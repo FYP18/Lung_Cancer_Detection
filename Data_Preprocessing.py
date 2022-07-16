@@ -14,7 +14,7 @@ def train_gen(img_dir, mask_dir, batch_size, target_shape, batch_type = 0):
     """
     
     seed = 909
-    aug = dict(horizontal_filp=True, 
+    aug = dict(horizontal_flip=True, 
                 vertical_flip=True, 
                 fill_mode='nearest', 
                 width_shift_range=0.2, 
