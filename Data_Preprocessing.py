@@ -23,8 +23,8 @@ def train_gen(img_dir, mask_dir, batch_size, target_shape, batch_type = 0):
                 zoom_range=0.3)
 
     kwargs = aug if batch_type else {}
-    wsi_datagen = ImageDataGenerator(kwargs, rescale=1/255)
-    mask_datagen = ImageDataGenerator(kwargs, rescale=1/255)
+    wsi_datagen = ImageDataGenerator(**kwargs, rescale=1/255)
+    mask_datagen = ImageDataGenerator(**kwargs, rescale=1/255)
 
     wsi_gen = wsi_datagen.flow_from_directory(img_dir, 
                                                batch_size=batch_size, 
