@@ -14,13 +14,15 @@ def train_gen(img_dir, mask_dir, batch_size, target_shape, batch_type = 0):
     """
     
     seed = 909
-    aug = dict(horizontal_flip=True, 
-                vertical_flip=True, 
-                fill_mode='nearest', 
-                width_shift_range=0.2, 
-                height_shift_range=0.2, 
-                brightness_range=[0.4,1.5], 
-                zoom_range=0.3)
+    aug = dict(rotation_range = 5, 
+                shear_range = 0.02,
+                zoom_range = 0.02, 
+                samplewise_center=True, 
+                samplewise_std_normalization= True,
+                horizontal_flip=True,
+                vertical_flip=True,
+                brightness_range=[0.4,1.5]
+              )
 
     kwargs = aug if batch_type else {}
     wsi_datagen = ImageDataGenerator(**kwargs, rescale=1/255)
